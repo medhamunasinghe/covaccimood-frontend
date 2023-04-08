@@ -14,7 +14,7 @@ This application is developed using Springboot, ReactJS and Bootstrap
 3. Open terminal and ener 'npm install'
 4. Once completed enter 'npm start'
 5. UI will be run on localhost:3000
-6. Backend will be run on localhost:5000
+6. Backend will be run on http://167.71.32.233:8080/
 
 ###Building the application and run as one component
 1. Go to the ../src/resources
