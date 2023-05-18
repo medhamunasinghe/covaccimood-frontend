@@ -26,8 +26,8 @@ class SideBar extends Component {
         <Link to={"profile"} className="nav-link">
           Profile
         </Link>
-        <Link to={"about"} className="nav-link">
-          About Us
+        <Link to={"aboutus"} className="nav-link">
+          Documentation
         </Link>
         <div style={style}>
           <Link to={"signout"} className="nav-link">

@@ -6,6 +6,7 @@ import AnalyzeView from "./components/home/AnalyzeView";
 import SideBar from "./components/sidebar/SideBar";
 import NavigationBar from "./components/navigation/NavigationBar";
 import Dashboard from "./components/dashboard/Dashboard"
+import Aboutus from "./components/aboutus/About"
 import {Col, Container, Row} from "react-bootstrap";
 import signout from "./components/signout/Signout"
 
@@ -43,6 +44,7 @@ class App extends Component {
                     <Route path="/history" exact component={HistoryView}></Route>
                     <Route path="/dashboard" exact component={Dashboard}></Route>
                     <Route path="/analayze" exact component={AnalyzeView}></Route>
+                    <Route path="/aboutus" exact component={Aboutus}></Route>
                     <Route path="/signout" exact component={signout}></Route>
                   </Switch>
                 </Col>
